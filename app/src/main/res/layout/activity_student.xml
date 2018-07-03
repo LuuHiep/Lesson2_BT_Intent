@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".StudentActivity">
+
+    <TextView
+        android:id="@+id/tvTên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etQueQuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quê Quán"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày Sinh"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etGioiTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gioi Tính"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etLopHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lớp Học"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etKhoaHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Khóa học"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnStudentInfor"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="OK"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"/>
+
+</LinearLayout>
